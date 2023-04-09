@@ -44,7 +44,6 @@ $ (venv) python app.py runserver
 ```
 This will run the pyhton project
 ```
-```
 
 Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 
