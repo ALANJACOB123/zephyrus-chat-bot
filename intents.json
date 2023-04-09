@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Which events do you have?",
+        "What kinds of events are there?"
+      ],
+      "responses": [
+        "we have both individual and group events.",
+        "You can see all the events in the Events page.",
+        "You will need to login first to access the events page."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I get a refund after registering a event?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept only UPI Payment",
+        "We do not accept cash with online registration",
+        "NO refunds will be availed after registration"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What is the timing of the events",
+        "When is the fest conducted?"
+      ],
+      "responses": [
+        "All the timing of events are given in event details page",
+        "The dates and time for the zephyrus4.0 and its events is given in the explore page"
+      ]
+    },
+    {
+      "tag": "spot",
+      "patterns": [
+        "When is the spot registration starting?",
+        "How is payment accepted in spot registration"
+      ],
+      "responses": [
+        "Spot Registration starts on the morning of techfest.",
+        "You can either pay in cash or pay using UPI.."
+      ]
+    }
+  ]
+}
